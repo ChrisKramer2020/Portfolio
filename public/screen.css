@@ -1,0 +1,218 @@
+html {
+  text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font: 16px / 1 sans-serif;
+  background-color: black;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px 4px 0 0;
+  height: 575px;
+  width: auto;
+  margin-bottom: -100px;
+}
+
+div {
+  position: relative;
+  left: 30px;
+  height: 100%;
+  top: 30px;
+  margin-left: 20px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 15px solid #000;
+}
+
+blockquote {
+  position: relative;
+  bottom: 140px;
+  left: 250px;
+  border-style: solid;
+  border-color:rgb(194, 255, 238) rgb(167, 227, 252);
+  background-color: rgb(167, 227, 252) ;
+  border-radius: 15px;
+  margin-left: 20px;
+  display: block;
+  height: 100px;
+}
+
+ul {
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  justify-content: space-between;
+  top: 400px;
+  right: -30px;
+  align-content: center;
+}
+
+li {
+  padding: 0 2em;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  bottom: 30px;
+  border-radius: 40px;
+  border-style: solid;
+  border-width: thick;
+  justify-content: space-between;
+  padding-top: 30px;
+  top: -60px;
+}
+
+.goodtimes {
+  background-color: gray;
+  position: relative;
+  top: 100px;
+  border: 2px solid pink;
+}
+
+.goodtimes {
+  background-repeat: no-repeat;
+  /* padding: 20%;*/
+  top: 150px;
+}
+
+.goodtimes section {
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-image: url('https://github.com/tiy-tpa-fee/fee-c6/blob/master/assignments/portfolio/assets/react.png?raw=true');
+  background-size: cover;
+  height: 80px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.wonderful section {
+  padding: 5px;
+  background-size: cover;
+  height: 80px;
+  position: relative;
+  border-radius: px;
+  background-image: url('https://github.com/tiy-tpa-fee/fee-c6/blob/master/assignments/portfolio/assets/code.png?raw=true');
+}
+
+.wonderful {
+  position: relative;
+  right: 30px;
+  padding: 5px;
+  border-radius: px;
+  background-color: gray;
+  left: -1px;
+  top: 200px;
+  border-style: ridge;
+  border: 2px solid pink;
+}
+
+h2 {
+  position: relative;
+  top: 10 px;
+  left: 0 px;
+}
+
+h3 {
+
+}
+
+h6 {
+  position: relative;
+  left: 140px;
+  top: -12px;
+}
+
+h5 {
+  position: relative;
+  left: 140px;
+  top: -14px;
+}
+
+nav {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+a:link {
+  display: block;
+  width: 120px;
+  background-color: yellowgreen;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a:hover a:active {
+  background-color: green;
+}
+
+.more {
+  background-color: hsl(200, 80%, 75%);
+  padding: 10px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+  border: 1px solid hsl(200, 60%, 50%);
+  border-radius: 4px;
+}
+
+.blue {
+  color: white;
+  font-style: oblique;
+  justify-content: flex-start;
+  position: absolute;
+  top: 175%;
+  left: 35%;
+}
+/*
+.white {
+  color: white;
+  top: 200%;
+  padding: 35%;
+  left: 5%;
+  background-image: url('http://www.orchardsquare.co.uk/wp-content/themes/orchard/assets/img/social/twitter-large.png');
+  background-repeat:repeat-y;
+}
+*/
+
+.yellow {
+  background-image: url('http://www.orchardsquare.co.uk/wp-content/themes/orchard/assets/img/social/twitter-large.png');
+  top: 180%;
+  padding: 40%;
+  flex-flow: row;
+  flex: 5px;
+  left: 0%;
+  justify-content: space-between;
+  flex-shrink: 100%;
+}
+
+.icons {
+  top: 200%;
+  position: relative;
+}
